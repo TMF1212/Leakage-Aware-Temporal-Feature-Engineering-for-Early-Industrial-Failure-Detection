@@ -13,5 +13,3 @@ A synthetic multi-machine sensor dataset:
 20 machines across 4 machine types
 24,042 observations over a 14-day period
 14.8% positive rate for a 24-hour failure horizon
-
-The dataset was constructed to resemble industrial condition-monitoring data; it does not involve human participants or real production systems.
