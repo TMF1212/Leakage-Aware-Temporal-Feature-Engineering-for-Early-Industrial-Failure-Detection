@@ -1,14 +1,3 @@
-Leakage-Aware Temporal Feature Engineering for Early Industrial Failure Detection
-
-Code and synthetic dataset accompanying the manuscript:
-
-"Leakage-Aware Temporal Feature Engineering for Early Industrial Failure Detection: Chronological and Unseen-Machine Validation on Multi-Machine Sensor Data"
-
-Matthew O. Falade¹, Daniel O. Ogundapo¹, Gabriel O. Olaogun¹, Timilehin I. Ayoola², Victor O. Omoniyi²
-
-¹ Department of Computer Science, Ladoke Akintola University of Technology, Ogbomoso, Nigeria ² Department of Mechatronics Engineering, Federal University of Technology, Minna, Nigeria
-
-
 Overview
 
 Predictive maintenance models are often reported with near-perfect discrimination, but these figures frequently come from random train/test splits that let information from the same machine — or the same failure episode — leak into both training and evaluation data. This project:
