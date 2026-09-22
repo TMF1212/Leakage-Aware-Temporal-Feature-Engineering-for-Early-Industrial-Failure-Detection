@@ -1,6 +1,6 @@
 Overview
 
-Predictive maintenance models are often reported with near-perfect discrimination, but these figures frequently come from random train/test splits that let information from the same machine — or the same failure episode — leak into both training and evaluation data. This project:
+Predictive maintenance models are often reported with near-perfect discrimination, but these figures frequently come from random train/test splits that let information from the same machine or the same failure episode, leak into both training and evaluation data. This project:
 
 Builds an initial model and demonstrates severe target leakage (spurious ROC-AUC of 1.00) caused by features derived from the failure countdown variable.
 Conducts a structured leakage audit and constructs a leakage-safe feature set (raw sensor readings, observation-based lag features, and timestamp-aware one-hour rolling statistics).
