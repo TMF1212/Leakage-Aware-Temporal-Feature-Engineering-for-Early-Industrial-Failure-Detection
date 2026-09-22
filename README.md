@@ -15,10 +15,3 @@ A synthetic multi-machine sensor dataset:
 14.8% positive rate for a 24-hour failure horizon
 
 The dataset was constructed to resemble industrial condition-monitoring data; it does not involve human participants or real production systems.
-
-Key Results
-Stage	ROC-AUC	PR-AUC
-Initial model (leaked features)	1.00 (spurious)	—
-Ablation: raw features only (mean)	0.946	0.821
-Ablation: + lag/rolling features (mean)	0.978	0.923
-Final Random Forest (unseen machines)	0.994	0.951
